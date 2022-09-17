@@ -21,3 +21,13 @@ if(iconMenu){
   });
 
 }
+//modal window
+let modal = document.querySelector('.modal');
+let card_login = document.getElementById('card_login');
+let btn_close = document.querySelector('.btn_close');
+card_login.onclick = function(){
+  modal.classList.remove('close_modal');
+}
+btn_close.onclick = function(){
+  modal.classList.add('close_modal');
+}

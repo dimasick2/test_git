@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #202020;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: 70px;
+  padding: 0 40px;
+  /* background-color: #000000; */
+  /* background-color: #414141; */
+  /* background-color: #ffffff; */
+  background-color: #000000;
+
+  color: #F0F0F0;
+  font-family: "Raleway Regular", sans-serif;
+  /* position: relative; */
+
+
+}
+/* .header_item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-bottom:solid 2px rgb(82, 80, 76);
+} */
+.nav{
+  display: flex;
+  list-style: none;
+}
+
+.nav a{
+  /* color: #d9d6d5; */
+  color: #919191;
+
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.nav__user{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #919191;
+
+
+}
+.nav__text{
+}
+.user{
+  width: 50px;
+  height: 50px;
+  background-color: #6c6969;
+  border-radius: 100%;
+  margin-left: 10px;
+
+}
+.nav li a:hover{
+  color: rgb(194, 48, 75);
+}
+.container{
+  display: flex;
+}
+.line{
+  position: sticky;
+  /* position: fixed; */
+  top: 0px;
+  /* bottom: 0; */
+  width: 100%;
+  height: 3px;
+  border-top: 3px solid #cdcbcb;
+  z-index: 3;
+}
+.page{
+  /* height: 500px; */
+  display: flex;
+  /* border-top: 3px solid rgb(245, 8, 8); */
+
+  /* position: relative; */
+  /* padding-left: 252px; */
+
+
+}
+
+
+.side_bar{
+  width: 250px;
+  background-color: #da410d; 
+  height: 100vh;
+  display: inline-block ;
+  /* position:absolute; */
+  position: sticky;
+  top: 0;
+  /* left: 0; */
+  border-right: solid 2px #ffffff;
+  /* background-color: #6C6C6C; */
+  /* background-color: #e3e1e0; */
+  background-color: #202020;
+
+  padding: 25px 20px;
+
+
+}
+
+
+.sidebar_container{
+
+  /* padding: 23px 25px; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* box-sizing: border-box;
+  display: flex;
+  flex-direction: column; */
+}
+.page_inner{
+ width: 100%;
+}
+.main{
+  
+  /* height: 500px; */
+  padding: 23px 130px;
+  /* background-color: #414141; */
+  /* background-color: #ffffff; */
+
+}
