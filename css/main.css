@@ -182,9 +182,11 @@ header{
   /* padding: 30px; */
   max-width: 1200px;
   /* height: 100vh; */
-  margin: 0 auto;
-  padding: 120px 0 0 0;
+  margin: 5px auto;
+  padding: 116px 0 0 0;
 
+
+  /* height: 71vh; */
 
 }
 
@@ -199,6 +201,7 @@ header{
   background-color: rgb(49, 206, 10);
   height: 100vh;
 }
+
 /* uu */
 .title{
   padding: 20px;
@@ -211,25 +214,42 @@ header{
   /* border: solid 2px wheat; */
   margin: 0px auto;
   text-transform: uppercase;
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
-  height: 100vh;
 
 }
 .part{
   color: #fff;
   -webkit-text-stroke-width: 0px;
+  /* font-size: 55px; */
+  font-size:5vw;
+
+  font-weight: 800;
+
+
 
 }
-.title p{
- 
-  font-size: 70px;
+
+.tit{
+  font-size:5vw;
   font-weight: 800;
-  
+  /* line-height: 100px; */
   color: purple;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
-  margin: 0 0 85px 0 ;
+  margin: 0 0 0px 0 ;
+}
+.title_bottom{
+  color: #fff;
+  -webkit-text-stroke-width: 0px;
+  /* font-size: 55px; */
+  font-size:3vw;
+  margin-top: 50px;
+
+  font-weight: 800;
+}
+.title p{
+  /* line-height: ; */
 }
 .title  h3{
   color: #fff;
@@ -239,7 +259,7 @@ header{
     max-width: 420px;
   }
   .title p, h3{
-    margin: 17px 0 57px 0 ;
+    /* margin: 17px 0 57px 0 ; */
     font-size: 24px;
   }
 
@@ -256,10 +276,6 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-
-
 }
 .modal_container{
   width: 330px;
@@ -290,6 +306,7 @@ header{
   height: 30px;
   margin-bottom: 10px;
   padding: 8px;
+  color: #000;
 }
 .btnEnter{
   width: 100%;
@@ -299,7 +316,9 @@ header{
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-
+}
+.btnEnter:hover{
+  background-color: #a39cbb;
 
 }
 .open_modal{
@@ -316,18 +335,23 @@ header{
 
 }
 .section2_item{
-  width: 50%;
-  height: 320px;
-  background-image: url(../img/for\ new\ pokolenie.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* max-width: 50%;
+   */
+  max-width: 400px;
+
+  /* height: 320px; */
+  /* background-image: url(../img/for\ new\ pokolenie.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 }
 .section_h{
   display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
   /* padding: 150px 0 0 0; */
 }
 .h_text{
-  width: 50%;
+  /* max-width: 400px; */
   text-align: center;
   /* height: 300px; */
 }
@@ -338,4 +362,38 @@ header{
 .img_after_twwa{
   width: 80%;
   margin-left: 10%;
+}
+.footer{
+  min-height: 40vh;
+  background-color: #574495;
+  padding: 10px;
+  text-align: center;
+  /* max-width: 1200px; */
+  /* margin: 5px auto; */
+  /* padding: 116px 0 0 0; */
+     
+}
+.footer_container{
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-top: 10px; */
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 15px auto;
+
+}
+.footer_container div{
+margin: 20px;
+}
+.list{
+  list-style: none;
+}
+.list li{
+  padding: 5px;
+}
+.addresss{
+  text-align: left;
+}
+.footrt-item{
+  margin-bottom: 14px;
 }

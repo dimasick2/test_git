@@ -1,0 +1,23 @@
+{
+  "name": "test_git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimasick2/test_git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimasick2/test_git/issues"
+  },
+  "homepage": "https://github.com/dimasick2/test_git#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

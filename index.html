@@ -7,6 +7,8 @@
   <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/6dbfe71658.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 </head>
 <body>
   <div class="wrapper">
@@ -25,8 +27,9 @@
               <li><a data-gotom=".section1" href="#section2">Кто мы</a></li>
               <li><a data-gotom=".section2" href="#section3">Чему мы обучаем</a></li>
               <li><a data-gotom=".section3" href="#section4">Пробный урок</a></li>
-              <li><a data-gotom=".section3" href="#section5">Контакты</a></li>
+              <li><a data-gotom=".section3" href="admin/admin.html">Контакты</a></li>
               <li><a data-gotom=".section3" id="card_login" href="javascpipt:void(0)">Вход</a></li>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
             </ul>
             
           </nav>
@@ -50,16 +53,22 @@
     <!--  -->
     <main class="page">
       
-      <div class="title">
+   
         <section class="page_section section1" id="section1">
-          <p>Не будь потребителем -<span class="part">будь создателем</span></p>
-          <h3 >Программирование для детей</h3>
+          <div class="title">
+            <p class="tit">Не будь потребителем -</p>
+            <span ></span>
+            <p class="part">будь создателем</p>
+            <h3 class="title_bottom">Программирование для детей</h3>
+        </div>
         </section>
-      </div>
+    
       
       <section class="page_section " id="section2">
         <div class="section_h">
-          <div class="section2_item"></div>
+          <div class="section2_item">
+            <!-- <img src="img/for new pokolenie.png" alt="" width="50%"> -->
+          </div>
           <div class="h_text">
             <h2>Кто мы</h2>
             <p>Мы - команда новаторов, решающие проблему потребительского отношения к современным технологиям состороны детей.
@@ -77,7 +86,7 @@
 
       </section>
       <section class="page_section section3" id="section3">
-        <h1>Section three</h1>
+        <h1>чему учем</h1>
     
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
@@ -87,7 +96,7 @@
       </section>
 
       <section class="page_section section3" id="section3">
-        <h1>Section three</h1>
+        <h1>Наши друзья</h1>
     
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
@@ -95,24 +104,46 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
       </section>
-      <section class="page_section section3" id="section3">
-        <h1>Section three</h1>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-      </section>
+      
 
-      <section class="page_section section3" id="section3">
-        <h1>Section three</h1>
+      <section class="footer" id="section3">
+        <h1>Свяжитесь с нами</h1>
+        <div class="footer_container">
+          <div class="phone">
+            <p class="footrt-item">Номера телефонов</p>
+            <ul class="list">
+              <li><a href="tel:+996555568-000"><i class="fa-thin fa-square-phone-flip"></i>+996(555)568-000</a></li>
+              <li><a href="tel:+996500568-000"><i class="fa-thin fa-square-phone-flip"></i>+996(500)568-000</a></li>
+              <li><a href="tel:+996775568-000"><i class="fa-thin fa-square-phone-flip"></i>+996(775)568-000</a></li>
+              
+            </ul>
+          </div>
+          <div class="doc">
+            <ul class="list">
+              <li>Публичный договор</li>
+              <li>Условия акции</li>
+            </ul>
+          </div>
+          <div class="networks">
+            <p class="footrt-item">Соц. сети</p>
+           <ul class="list">
+            <li><a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i> whatsapp</a></li>
+            <li> <a href=""><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></li>
+            <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a></li>
+          </ul> 
+          </div>
+          <div class="addresss">
+            <p class="footrt-item">Наши филиалы</p>
+            <ul class="list">
+              <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> ул. Киевская 190 (пер. Турусбекова) 2 этаж</a></li>
+              <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> ул. Суеркулова БЦ "Колизей" 2 этаж, каб. 201</a></li>
+              <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> ул. Чуй 147/1 (пер. Гоголя), 2 этаж,
+                каб. 207</a></li>
+
+            </ul>
+          </div>
+        </div>
     
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias dolores similique sunt, velit dolore inventore nam blanditiis eius sint. Sapiente sint minima amet dolor illum, inventore accusamus iusto earum.</p>
       </section>
     </main>
   </div>
